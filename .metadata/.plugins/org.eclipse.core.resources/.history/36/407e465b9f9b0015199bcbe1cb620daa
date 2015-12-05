@@ -1,0 +1,18 @@
+package com.example.comp304_group1_microproject5;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+
+public class LoginActivity extends Activity {
+	Button Login;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_login);
+		Login = (Button) findViewById(R.id.b_login);
+	}
+
+}
