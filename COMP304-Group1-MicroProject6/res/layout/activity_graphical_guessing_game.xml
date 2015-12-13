@@ -6,14 +6,15 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.comp304_group1_microproject6.GraphicalGuessingGame" >
+    tools:context="com.example.comp304_group1_microproject6.GraphicalGuessingGame" 
+    android:background="#006400">
 
      <TextView
         android:id="@+id/lblChance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Chances Left: 10"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffffff"/>
      
      <TextView
         android:id="@+id/lblScore"
@@ -22,7 +23,7 @@
         android:text="Score: 100%"
         android:layout_marginLeft="25dp"
         android:layout_toRightOf="@+id/lblChance"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
+        android:textAppearance="?android:attr/textAppearanceMedium" android:textColor="#ffffff"/>
   
       <TableLayout
         android:id="@+id/tblGame"
